@@ -1,6 +1,8 @@
 import weechat
 import imaplib
 
+# AUTHOR: Tony Lademan <tony@alademan.com>
+#
 # REQUIREMENTS:
 #   This script will require the IMAPLIB python module in order to
 #   function.  Without the module installed on your system, this script
@@ -55,7 +57,7 @@ import imaplib
 #     /list_signature
 #
 #   NOTE:  This currently only works on one server.  It should not require 
-#          bitlbee, but I have not yet tested it otherwise. 
+          bitlbee, but I have not yet tested it otherwise. 
 
 # TODO:
 #   * Add help message(s) describing the options
@@ -99,7 +101,7 @@ import imaplib
 #       Currently the stderr output is thrown directly to the core buffer.
 
 SCRIPT_NAME = "email_reply"
-SCRIPT_AUTHOR = "Anthony Lademan <tony@alademan.com>"
+SCRIPT_AUTHOR = "Tony Lademan <tony@alademan.com>"
 SCRIPT_VERSION = "0.1"
 SCRIPT_LICENSE = "GPL3"
 SCRIPT_DESCRIPTION = "Reply to messages using email"
