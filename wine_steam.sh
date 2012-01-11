@@ -30,7 +30,7 @@ get_wine_prefixes()
   for i in $(ls -d $WINELOCATION*)
   do
     title=$(echo $i | awk -F"/" '{ print $4 }')
-    if [[ "$i" == "/home/satoshi/.wine" ]]
+    if [[ "$i" == "~/.wine" ]]
     then
       PREFIXES+=("TRUE")
       PREFIXES+=("$title")
@@ -68,7 +68,7 @@ zenity_chooser()
 
 wine_launch()
 {
-  cd /home/satoshi/Steam/
+  cd ~/Steam/
   WINEPREFIX=~/$WINEDIR WINEDEBUG=-all nice -n 19 wine Steam.exe
 }
 
