@@ -57,7 +57,7 @@ import imaplib
 #     /list_signature
 #
 #   NOTE:  This currently only works on one server.  It should not require 
-          bitlbee, but I have not yet tested it otherwise. 
+#          bitlbee, but I have not yet tested it otherwise. 
 
 # TODO:
 #   * Add help message(s) describing the options
